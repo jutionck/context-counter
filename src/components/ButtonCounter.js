@@ -10,7 +10,7 @@ const ButtonCounter = () => {
                     return (
                         <>
                             <div style={{height: 100}}>
-                                <h1>{number}</h1>
+                                <h4>The current count is {number}</h4>
                                 <button className="btn btn-outline-danger"
                                     onClick={decrement}>Decrement
                                 </button>
